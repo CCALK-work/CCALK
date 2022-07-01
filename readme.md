@@ -17,16 +17,16 @@ Two Python scripts located in [**AES**](https://github.com/CCALK-work/CCALK/tree
 - The first script, *analysis.py* is used to automatically retrieve the secret value from a trace obtained after running the covert-channel
 - The second script, *graphical.py* plots a trace that we can inspect with the naked eye to observe the results of the covert-channel
 
-The two figures below give an example of the outputs obtained using the *graphical.py* script. Figure 1 represents the raw output of the script. Figure 2 depicts a zoom on one of the 8 distinct patterns observed on Figure 1, where the recovered values of the key can be inferred with the naked eye.
+The two figures below give an example of the outputs obtained using the *graphical.py* script. **Figure 1** represents the raw output of the script. **Figure 2** depicts a zoom on one of the 8 distinct patterns observed on **Figure 1**, where the recovered values of the key can be inferred with the naked eye.
 
 ![fig3](https://user-images.githubusercontent.com/108535913/176914938-ac5c12d5-455f-4283-b305-2368087d40ae.jpeg)
 <p align="center">
-  Figure 1 - Output of the <em>graphical.py</em> script
+  <strong>Figure 1</strong> - Output of the <em>graphical.py</em> script
 </p> 
 
 ![fig4](https://user-images.githubusercontent.com/108535913/176915852-5ff89025-6cfe-4e2c-8226-33f04ffa98a9.jpeg)
 <p align="center">
-Figure 2 - Zoom on one of the 8 patterns observed on Figure 1
+  <strong>Figure 2</strong> - Zoom on one of the 8 patterns observed on <strong>Figure 1</strong>
 </p>  
 
 ## Setup
