@@ -19,12 +19,14 @@ Two Python scripts located in [**AES**](https://github.com/CCALK-work/CCALK/tree
 
 The two figures below give an example of the outputs obtained using the *graphical.py* script. Figure 1 represents the raw output of the script. Figure 2 depicts a zoom on one of the 8 distinct patterns observed on Figure 1, where the recovered values of the key can be inferred with the naked eye.
 
+<p align="center">
 ![fig3](https://user-images.githubusercontent.com/108535913/176914938-ac5c12d5-455f-4283-b305-2368087d40ae.jpeg)
 Figure 1 - Output of the *graphical.py* script
 
 ![fig4](https://user-images.githubusercontent.com/108535913/176915852-5ff89025-6cfe-4e2c-8226-33f04ffa98a9.jpeg)
 Figure 2 - Zoom on one of the 8 patterns observed on Figure 1
-  
+</p>  
+
 ## Setup
 
 ### HW & SW requirements
