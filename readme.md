@@ -67,7 +67,7 @@ Figure 2 - Zoom on one of the 8 patterns observed on Figure 1
 
 **6) Assign manual IP value to 192.168.0.15 for your computer ethernet interface connected to the FPGA**
 
-**7) Setup the correct SSH configuration suiting your setup by using this [**script**] (https://github.com/CCALK-work/CCALK/blob/main/FPGA_set_ssh)**
+**7) Setup the correct SSH configuration suiting your setup by using this [**script**](https://github.com/CCALK-work/CCALK/blob/main/FPGA_set_ssh)**
 
 
 
