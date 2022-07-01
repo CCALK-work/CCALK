@@ -2,8 +2,8 @@
 (when) CVA6 Cache Associativity Leaks the Key - Codes related to the paper
 
 ## About the attack
-This attack is a covert channel based on the Prime & Probe technique. It has been developed on [**CVA6**](https://github.com/openhwgroup/cva6), an open-source CPU implementing a RISC-V architecture.
-We propose an implementation of a Prime+Probe covert-channel on an FPGA-instanciated CVA6 target running a minimal Linux OS. We carry out this covert-channel in a semi-realistic scenario consisting in extracting the secret key of an AES-128 encryption algorithm based on the [**Tiny-AES**](https://github.com/kokke/tiny-AES-c) implementation.
+<div style="text-align: justify">This attack is a covert channel based on the Prime & Probe technique. It has been developed on [**CVA6**](https://github.com/openhwgroup/cva6), an open-source CPU implementing a RISC-V architecture.
+We propose an implementation of a Prime+Probe covert-channel on an FPGA-instanciated CVA6 target running a minimal Linux OS. We carry out this covert-channel in a semi-realistic scenario consisting in extracting the secret key of an AES-128 encryption algorithm based on the [**Tiny-AES**](https://github.com/kokke/tiny-AES-c) implementation.</div>
   
 ## Content
 This repository contains:
@@ -16,7 +16,7 @@ Two Python scripts located in [**AES**](https://github.com/CCALK-work/CCALK/tree
 - The first script, *analysis.py* is used to automatically retrieve the secret value from a trace obtained after running the covert-channel
 - The second script, *graphical.py* plots a trace that we can inspect with the naked eye to observe the results of the covert-channel
 
-The two figures below give an example of the outputs obtained using the *graphical.py* script. **Figure 1** represents the raw output of the script. **Figure 2** depicts a zoom on one of the 8 distinct patterns observed on **Figure 1**, where the recovered values of the key can be inferred with the naked eye.
+<div style="text-align: justify">The two figures below give an example of the outputs obtained using the *graphical.py* script. **Figure 1** represents the raw output of the script. **Figure 2** depicts a zoom on one of the 8 distinct patterns observed on **Figure 1**, where the recovered values of the key can be inferred with the naked eye.</div>
 
 ![fig3](https://user-images.githubusercontent.com/108535913/176914938-ac5c12d5-455f-4283-b305-2368087d40ae.jpeg)
 <p align="center">
