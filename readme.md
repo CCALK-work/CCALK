@@ -2,7 +2,7 @@
 (when) CVA6 Cache Associativity Leaks the Key - Codes related to the paper
 
 ## About the attack
-This attack is a covert channel based on a Prime & Probe method. It works on the [**CVA6 heart**](https://github.com/openhwgroup/cva6), an open-source CPU that implement a RISC-V architecture.
+This attack is a covert channel based on a Prime & Probe method. It works on [**CVA6**](https://github.com/openhwgroup/cva6), an open-source CPU that implement a RISC-V architecture.
 présentation attaque
 
   
