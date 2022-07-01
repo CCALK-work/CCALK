@@ -27,6 +27,7 @@ Two Python scripts located in [**AES_results**](https://github.com/CCALK-work/CC
 - The other, *graphical.py* is used to plot trace that we can inspect with the naked eye
 
 ![fig3](https://user-images.githubusercontent.com/108535913/176914938-ac5c12d5-455f-4283-b305-2368087d40ae.jpeg)
+![fig4](https://user-images.githubusercontent.com/108535913/176915852-5ff89025-6cfe-4e2c-8226-33f04ffa98a9.jpeg)
 
 ## HW & SW requirements
 - [**Genesys2 FPGA**](https://digilent.com/reference/programmable-logic/genesys-2/reference-manual)
