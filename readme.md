@@ -9,7 +9,7 @@ présentation attaque
 ## Content
 This repository contains:
 - A tutorial on how to set the environement in order to reproduce the attack.
-- Source codes (C, Python and Bash scripts) located in the [**AES**](https://github.com/Vmartinoli/CCALK-PP/tree/main/AES) folder.
+- Source codes (C, Python and Bash scripts) located in the [**AES**](https://github.com/CCALK-work/CCALK/tree/main/AES) folder.
 - Linux image and CVA6 bitstream and configuration memory file used for the attack environment 
 
 
@@ -22,12 +22,11 @@ presentation attaque aes
 
 
 ## Attack Results
-Two Python scripts located in [**AES_results**](https://github.com/Vmartinoli/CCALK-PP/tree/main/AES) can be used to perform the attack analisys.
+Two Python scripts located in [**AES_results**](https://github.com/CCALK-work/CCALK/tree/main/AES) can be used to perform the attack analisys.
 - One script, *analysis.py* is used to retrieve automatically secret value from a trace
 - The other, *graphical.py* is used to plot trace that we can inspect with the naked eye
 
-![fig3](https://user-images.githubusercontent.com/108535913/176914938-ac5c12d5-455f-4283-b305-2368087d40ae.jpeg)![fig3](https://user-images.githubusercontent.com/108535913/176914938-ac5c12d5-455f-4283-b305-2368087d40ae.jpeg)
-![fig3](https://user-images.githubusercontent.com/108535913/176914938-ac5c12d5-455f-4283-b305-2368087d40ae.jpeg) 
+![fig3](https://user-images.githubusercontent.com/108535913/176914938-ac5c12d5-455f-4283-b305-2368087d40ae.jpeg)
 
 ## HW & SW requirements
 - [**Genesys2 FPGA**](https://digilent.com/reference/programmable-logic/genesys-2/reference-manual)
