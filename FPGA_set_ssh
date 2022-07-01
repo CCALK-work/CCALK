@@ -1,0 +1,5 @@
+ifconfig eth0 192.168.0.16
+ed < edit.sed /etc/ssh/sshd_config
+/etc/init.d/S50sshd restart
+date --set 2021-09-15
+date --set 11:30:00 --utc
