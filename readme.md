@@ -1,5 +1,5 @@
 # CCALK-PP
-(when) CVA6 Cache Associativity Leaks the Key - Codes related to the paper
+(When) CVA6 Cache Associativity Leaks the Key - Codes related to the paper
 
 ## About the attack
 This attack is a covert channel based on the Prime & Probe technique. It has been developed on [**CVA6**](https://github.com/openhwgroup/cva6), an open-source CPU implementing a RISC-V architecture.
