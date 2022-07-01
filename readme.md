@@ -21,7 +21,7 @@ The two figures below give an example of the outputs obtained using the *graphic
 
 ![fig3](https://user-images.githubusercontent.com/108535913/176914938-ac5c12d5-455f-4283-b305-2368087d40ae.jpeg)
 <p align="center">
-Figure 1 - Output of the *graphical.py* script
+  Figure 1 - Output of the <em>graphical.py</em> script
 </p> 
 
 ![fig4](https://user-images.githubusercontent.com/108535913/176915852-5ff89025-6cfe-4e2c-8226-33f04ffa98a9.jpeg)
