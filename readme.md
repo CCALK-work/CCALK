@@ -26,12 +26,8 @@ Two Python scripts located in [**AES_results**](https://github.com/Vmartinoli/CC
 - One script, *analysis.py* is used to retrieve automatically secret value from a trace
 - The other, *graphical.py* is used to plot trace that we can inspect with the naked eye
 
-pict1
-pict2
-pict3
-pict4
-  
-
+![fig3](https://user-images.githubusercontent.com/108535913/176914938-ac5c12d5-455f-4283-b305-2368087d40ae.jpeg)![fig3](https://user-images.githubusercontent.com/108535913/176914938-ac5c12d5-455f-4283-b305-2368087d40ae.jpeg)
+![fig3](https://user-images.githubusercontent.com/108535913/176914938-ac5c12d5-455f-4283-b305-2368087d40ae.jpeg) 
 
 ## HW & SW requirements
 - [**Genesys2 FPGA**](https://digilent.com/reference/programmable-logic/genesys-2/reference-manual)
