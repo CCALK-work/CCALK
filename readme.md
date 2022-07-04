@@ -2,8 +2,7 @@
 (When) CVA6 Cache Associativity Leaks the Key - Codes related to the paper
 
 ## About the attack
-This attack is a covert channel based on the Prime & Probe technique. It has been developed on [**CVA6**](https://github.com/openhwgroup/cva6), an open-source CPU implementing a RISC-V architecture.
-We propose an implementation of a Prime+Probe covert-channel on an FPGA-instanciated CVA6 target running a minimal Linux OS. We carry out this covert-channel in a semi-realistic scenario consisting in extracting the secret key of an AES-128 encryption algorithm based on the [**Tiny-AES**](https://github.com/kokke/tiny-AES-c) implementation.
+This work consists in an implementation of a covert-channel based on the Prime & Probe technique. It has been developed on [**CVA6**](https://github.com/openhwgroup/cva6), an open-source CPU implementing a RISC-V architecture. More precisely, this covert-channel targets an FPGA-instanciated CVA6 target running a minimal Linux OS. We carry out this covert-channel in a semi-realistic scenario consisting in extracting the secret key of an AES-128 encryption algorithm based on the [**Tiny-AES**](https://github.com/kokke/tiny-AES-c) implementation.
 
 ## Content
 This repository contains:
