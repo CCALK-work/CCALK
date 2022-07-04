@@ -4,10 +4,10 @@ The covert-channel targets an implementation of the [**Tiny-AES**](https://githu
 
 ### Steps for replication
 
-**1) On your computer, execute the [**sendProgFPGA.sh script**](https://github.com/CCALK-work/CCALK/blob/main/AES/sendProgFPGA.sh) to compile C programs and upload binary files and mesurement script to the FPGA.**
+**1) On your computer, execute the [**sendProgFPGA.sh**](https://github.com/CCALK-work/CCALK/blob/main/AES/sendProgFPGA.sh) script to compile C programs and upload binary files and mesurement script to the FPGA.**
 
-**2) Execute the [**mesure.sh script**](https://github.com/CCALK-work/CCALK/blob/main/AES/mesure.sh) on the Linux running on the CVA6 to run the spy program and start trace acquisition. The acquisition time depends on the number of samples mesured by the spy and ends when *End probing* appears on the terminal. The trace file is located in the *out* created repository.**
+**2) Execute the [**mesure.sh**](https://github.com/CCALK-work/CCALK/blob/main/AES/mesure.sh) script on the Linux running on the CVA6 to run the spy program and start trace acquisition. The acquisition time depends on the number of samples mesured by the spy and ends when *End probing* appears on the terminal. The trace file is located in the *out* created repository.**
 
-**3) Execute the [**getMesure.sh script**](https://github.com/CCALK-work/CCALK/blob/main/AES/getMesure.sh) on your computer to download the trace. You must specify a folder used to contain the file.**
+**3) Execute the [**getMesure.sh**](https://github.com/CCALK-work/CCALK/blob/main/AES/getMesure.sh) script on your computer to download the trace. You must specify a folder used to contain the file.**
 
-**4) You can use either the [**analysis.py python script**](https://github.com/CCALK-work/CCALK/blob/main/AES/analysis.py) to retrieve automatically the covert-channel's secret or [**graphical.py script**](https://github.com/CCALK-work/CCALK/blob/main/AES/graphical.py) script to perform a more graphical analysis. For this analysis, in order to facilitate the visualization of results, you need the spy to make more samples. You need to specify the location of the trace to analyse when running these scripts.** 
+**4) You can use either the [**analysis.py python**](https://github.com/CCALK-work/CCALK/blob/main/AES/analysis.py) script to retrieve automatically the covert-channel's secret or [**graphical.py**](https://github.com/CCALK-work/CCALK/blob/main/AES/graphical.py) script to perform a more graphical analysis. For this analysis, in order to facilitate the visualization of results, you need the spy to make more samples. You need to specify the location of the trace to analyse when running these scripts.** 
